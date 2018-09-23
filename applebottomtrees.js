@@ -1,8 +1,5 @@
 let sunX = 0,
-    cloudX = sunX,
-    appleY = 250,
-    wingWidth = 10,
-    wingHeight= 20;
+    cloudX = sunX;
 
 function setup() {
   createCanvas(700, 400);
@@ -76,5 +73,5 @@ function drawBird() {
   // beak
   triangle(565, 255, 565, 245, 580, 250);
   // wings
-  ellipse(555, 265, wingWidth, wingHeight);
+  ellipse(555, 265, 10, 20);
 }
